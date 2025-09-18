@@ -5,9 +5,7 @@ const nextConfig = {
     domains: ['localhost'],
     formats: ['image/webp', 'image/avif'],
   },
-  experimental: {
-    optimizeCss: true,
-  },
+  // Removed experimental optimizeCss to fix Vercel deployment
 }
 
 module.exports = nextConfig
